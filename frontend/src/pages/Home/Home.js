@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import { Empty } from "antd";
 import { Helmet } from "react-helmet";
 import axios from "axios";
-
+import { Component } from 'react';
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { Tabs } from "antd";
@@ -23,6 +23,7 @@ import {
 } from "../../redux/actions/courseActions";
 import Error from "../../components/utils/Error";
 
+      
 const Home = () => {
   const dispatch = useDispatch();
   const ListCoursesReducer = useSelector((state) => state.ListCoursesReducer);

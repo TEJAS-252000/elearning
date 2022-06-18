@@ -13,6 +13,8 @@ import useWindowDimensions from "../../useWindowDimensions";
 import axios from "axios";
 import PropagateLoader from "react-spinners/PropagateLoader";
 import { useSelector, useDispatch } from "react-redux";
+
+
 const Navbar = ({ match, history }) => {
   const { height, width } = useWindowDimensions();
   const [showsearch, setshowsearch] = useState(false);
@@ -42,6 +44,7 @@ const Navbar = ({ match, history }) => {
   const contentProfile = (
     <div className="Profilepobover">
       <Link to="/profile">Profile</Link> <br />
+      <a href="http://localhost:3000/">TODO</a> <br />
       <Link to="/" onClick={handleLogout}>
         Logout
       </Link>

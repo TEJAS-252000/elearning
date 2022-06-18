@@ -43,7 +43,7 @@ if (process.env.NODE_ENV === "production") {
 const PORT = process.env.PORT || 4000;
 
 const CONNECTION_URL =
-  "mongodb+srv://souhail:souhail2001@cluster0.bnzut.mongodb.net/myDataBase?retryWrites=true&w=majority";
+  "mongodb+srv://tejas:tejas123@cluster0.cp2bl.mongodb.net/tejas?retryWrites=true&w=majority";
 
 mongoose
   .connect(CONNECTION_URL, {

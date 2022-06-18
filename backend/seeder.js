@@ -4,7 +4,7 @@ const Users = require('./models/userModel')
 const Courses = require('./models/CourseModel')
 const samplecourses = require ('./Data/Courses')
 dotenv.config()
-const CONNECTION_URL = 'mongodb+srv://souhail:souhail2001@cluster0.bnzut.mongodb.net/myDataBase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb+srv://tejas:tejas123@cluster0.cp2bl.mongodb.net/tejas?retryWrites=true&w=majority';
 
 const connectDB = async () => {
     try{

@@ -64,7 +64,8 @@ const userCtrl = {
       res.json({
         msg: "Register Success! Please activate your email to start.",
       });
-    } catch (err) {
+    } 
+    catch (err) {
       return res.status(500).json({ msg: err.message });
     }
   },
